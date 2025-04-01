@@ -17,6 +17,7 @@ import { GridseriesComponent } from './gridseries/gridseries.component';
 import { GriddocComponent } from './griddoc/griddoc.component';
 import { GridterrorComponent } from './gridterror/gridterror.component';
 import { GriddramaComponent } from './griddrama/griddrama.component';
+import { GridcienciaficComponent } from './gridcienciafic/gridcienciafic.component';
 
 register();
 
@@ -31,7 +32,8 @@ register();
     GridseriesComponent,
     GriddocComponent,
     GridterrorComponent,
-    GriddramaComponent
+    GriddramaComponent,
+    GridcienciaficComponent
   ],
   imports: [
     BrowserModule,
