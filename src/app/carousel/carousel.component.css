@@ -1,0 +1,14 @@
+swiper-slide img{
+    height: 100%;
+    width: 100%;
+}
+
+swiper-container{
+    height: 857.14px;
+    width: 2000px;
+}
+
+.container{
+    display: grid;
+    place-content: center;
+}

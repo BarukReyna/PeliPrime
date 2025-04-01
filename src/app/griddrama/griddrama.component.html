@@ -1,0 +1,13 @@
+<div>
+    <swiper-container  slides-per-view="6" navigation="true" >
+            <swiper-slide *ngFor="let drama of dramas">
+            
+                <a href="{{drama.link}}">
+                    <img src="{{drama.img}}" alt="dsf" width="300px" height="444px">
+                    <h3>{{drama.title}}</h3>
+                </a>
+            </swiper-slide>
+
+    </swiper-container>    
+        
+</div>

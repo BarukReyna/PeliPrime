@@ -1,0 +1,105 @@
+div{
+    background-color: #0f171ec4;
+    display: flex;
+    justify-content:space-between;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 14pt;
+    letter-spacing: 1.5px;
+    height: 100px;
+    width: 2000px;
+    align-self: center;
+    align-items: center;
+}
+.container{
+    margin-left: 12rem;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 3rem;
+    margin-top: 2.5rem;
+    
+.logo-li:hover{
+    background-color: #0f171ec4;
+}
+.logo-li{
+    border-radius: 5%;
+}
+    
+}
+li{
+    transition-duration: 0.2s;
+    height: 60%;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: .5rem;
+    
+}
+li:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+.prime{
+   transition-duration: 0.2s;
+}
+.prime:hover{
+    background-color: rgb(6, 100, 241);
+    cursor: pointer;
+}
+
+.division{
+    background-color: rgb(165, 165, 165);
+    width: 2.5px;
+    height: 35px;
+   
+}
+.icono{
+    transition-duration: 0.2;
+
+}
+
+.icono:hover{
+    background-color: #f00;
+}
+.prueba ul{
+    display: block;
+
+}
+.icon2{
+    transition-duration: 0.2s;
+    overflow: hidden;
+}
+.menu{
+    margin-top: 2rem;
+    display: flex;
+    gap: 5px;
+}
+
+.round{
+    border-radius: 50%;
+    
+}
+.lang{
+    font-size: 25px;
+    padding: 15px 20px;
+    transform: translateY(-7px);
+
+}
+.circle{
+    
+   transform: translateY(-5px);
+}
+
+::ng-deep .mat-flat-button{
+    background-color: blue;
+    color: blue;
+    font-family: "Roboto";
+    font-size: 20pt;
+}

@@ -1,0 +1,13 @@
+<div>
+    <swiper-container  slides-per-view="6" navigation="true" >
+            <swiper-slide *ngFor="let terr of terror">
+            
+                <a href="{{terr.link}}">
+                    <img src="{{terr.img}}" alt="dsf" width="300px" height="400px">
+                    <h3>{{terr.title}}</h3>
+                </a>
+            </swiper-slide>
+
+    </swiper-container>    
+        
+</div>
