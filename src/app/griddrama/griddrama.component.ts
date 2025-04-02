@@ -15,74 +15,74 @@ export class GriddramaComponent {
       link:'https://ww8.cuevana3.to/20904/sing-sing'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Tú no eres yo',
+      img:'https://ww8.cuevana3.to/poster/tu-no-eres-yo-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20901/tu-no-eres-yo'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'En un confín del mundo',
+      img:'https://ww8.cuevana3.to/poster/en-un-confin-del-mundo-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20895/en-un-confin-del-mundo'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Tierra de Mafia',
+      img:'https://ww8.cuevana3.to/poster/tierra-de-mafia-thumb.jpg',
+      link:'https://ww8.cuevana3.to/serie/tierra-de-mafia'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Petites',
+      img:'https://ww8.cuevana3.to/poster/petites-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20893/petites'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Aún estoy aquí',
+      img:'https://ww8.cuevana3.to/poster/aun-estoy-aqui-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20892/aun-estoy-aqui'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'When Im Ready',
+      img:'https://ww8.cuevana3.to/poster/when-im-ready-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20890/when-im-ready'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Who Killed Angel Adams?',
+      img:'https://ww8.cuevana3.to/poster/who-killed-angel-adams-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20889/who-killed-angel-adams'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Wrong Address',
+      img:'https://ww8.cuevana3.to/poster/wrong-address-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20886/wrong-address'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Manual para señoritas',
+      img:'https://ww8.cuevana3.to/poster/manual-para-senoritas-thumb.jpg',
+      link:'https://ww8.cuevana3.to/serie/manual-para-senoritas'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Los últimos románticos',
+      img:'https://ww8.cuevana3.to/poster/los-ultimos-romanticos-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20878/los-ultimos-romanticos'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Eternal',
+      img:'https://ww8.cuevana3.to/poster/eternal-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20875/eternal'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Las chicas de la estación',
+      img:'https://ww8.cuevana3.to/poster/las-chicas-de-la-estacion-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20871/las-chicas-de-la-estacion'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'Family Affair',
+      img:'https://ww8.cuevana3.to/poster/family-affair-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20857/family-affair'
     },
     {
-      title:'',
-      img:'',
-      link:''
+      title:'La clave del problema',
+      img:'https://ww8.cuevana3.to/poster/the-locksmith-thumb.jpg',
+      link:'https://ww8.cuevana3.to/20853/the-locksmith'
     },
     
   ]
