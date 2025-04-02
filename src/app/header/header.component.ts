@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  searchActive = false;
+
+  activarBusqueda(){
+    this.searchActive = true;
+  }
+
 }

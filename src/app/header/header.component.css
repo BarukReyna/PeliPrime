@@ -1,4 +1,7 @@
-div{
+
+.container{
+    margin-left: 12rem;
+    position: relative;
     background-color: #0f171ec4;
     display: flex;
     justify-content:space-between;
@@ -10,9 +13,6 @@ div{
     width: 2000px;
     align-self: center;
     align-items: center;
-}
-.container{
-    margin-left: 12rem;
     
 }
 ul{
@@ -81,6 +81,23 @@ li:hover{
     display: flex;
     gap: 5px;
 }
+
+.seccion-busqueda{
+    position: absolute;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.barra-busqueda{
+    border-radius: 25%;
+    align-self: center;
+    
+}
+
 
 .round{
     border-radius: 50%;
