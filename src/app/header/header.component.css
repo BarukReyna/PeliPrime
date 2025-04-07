@@ -1,7 +1,7 @@
 
 .container{
     margin-left: 12rem;
-    position: relative;
+    
     background-color: #0f171ec4;
     display: flex;
     justify-content:space-between;
@@ -83,18 +83,21 @@ li:hover{
 }
 
 .seccion-busqueda{
-    position: absolute;
     border: 1px solid black;
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
     z-index: 10;
+    height: 100vh;
+    align-content: center;
+    
 }
 
 .barra-busqueda{
     border-radius: 25%;
-    align-self: center;
+   
     
 }
 
