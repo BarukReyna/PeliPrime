@@ -1,6 +1,16 @@
 <app-header></app-header>
 <app-carousel></app-carousel>
 
+<app-search (search)="onSearch($event)"></app-search>
+
+<div *ngIf="searchTerm">
+    <h2>Resultados:</h2>
+    <app-allmovies [movies]="filteredMovies"></app-allmovies>
+</div>
+
+
+<div *ngIf="!searchTerm">
+
 <div class="content">
     <h2>TOP 10</h2>
     <app-grid></app-grid>
@@ -45,5 +55,7 @@
     <app-gridcienciafic></app-gridcienciafic>
 
     
+</div>
+
 </div>
 <app-footer></app-footer>

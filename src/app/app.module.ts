@@ -19,6 +19,7 @@ import { GridterrorComponent } from './gridterror/gridterror.component';
 import { GriddramaComponent } from './griddrama/griddrama.component';
 import { GridcienciaficComponent } from './gridcienciafic/gridcienciafic.component';
 import { SearchComponent } from './search/search.component';
+import { AllmoviesComponent } from './allmovies/allmovies.component';
 
 register();
 
@@ -35,7 +36,8 @@ register();
     GridterrorComponent,
     GriddramaComponent,
     GridcienciaficComponent,
-    SearchComponent
+    SearchComponent,
+    AllmoviesComponent
   ],
   imports: [
     BrowserModule,

@@ -10,7 +10,8 @@ export class SearchComponent {
 
   @Output() search = new EventEmitter<string>();
 
-  onInputChange(value: string){
-    this.search.emit(value);
+  onInputChange(event: Event): void{
+    const input = event.target as HTMLInputElement;
+    this.search.emit(input.value);
   }
 }
