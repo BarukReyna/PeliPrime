@@ -1,9 +1,13 @@
-<app-header>
-    <app-search (search)="onSearch($event)"></app-search>
+<app-header (toggleSearchBar)="toggleSearchBar()">
 </app-header>
+
+
+<div *ngIf="showSearchBar;else showCarrusel">
+<app-search  (search)="onSearch($event)"></app-search>
+</div>
+<ng-template #showCarrusel>
 <app-carousel></app-carousel>
-
-
+</ng-template>
 
 <div *ngIf="searchTerm">
     <h2>Resultados:</h2>
@@ -58,6 +62,6 @@
 
     
 </div>
-
-</div>
 <app-footer></app-footer>
+</div>
+

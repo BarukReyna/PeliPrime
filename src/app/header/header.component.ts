@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 
 @Component({
@@ -9,10 +9,13 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  searchActive = false;
+  @Output() toggleSearchBar = new EventEmitter<void>(); 
 
-  activarBusqueda(){
-    this.searchActive = true;
+  toggleSearch(): void{
+    this.toggleSearchBar.emit();
   }
+
+  
+  
 
 }

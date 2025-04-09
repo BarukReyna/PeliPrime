@@ -16,6 +16,12 @@ export class AppComponent implements OnInit{
   searchTerm: string = '';
   filteredMovies: any[]=[];
 
+  showSearchBar: boolean = false;
+
+  toggleSearchBar(): void{
+    this.showSearchBar = !this.showSearchBar;
+  }
+
   constructor(private movieService: MoviesService){}
   
   ngOnInit(): void {}

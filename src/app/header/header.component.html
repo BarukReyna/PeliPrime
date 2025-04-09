@@ -14,7 +14,7 @@
     </ul>
 
     <ul class="menu">
-        <li class="round" (click)="activarBusqueda()"><img class="icon" src="lupa2.png"  alt="buscar" width="30px"></li>
+        <li class="round" (click)="toggleSearch()" ><img class="icon" src="lupa2.png"  alt="buscar" width="30px"></li>
         <li class="lang">En</li>
         <li class="round"><img class="icon2" src="menu.png" alt="no se ve " width="30px"></li>
         <li class="round circle"><img class="usuario" src="https://i.pinimg.com/originals/f3/d1/ed/f3d1edf10d63c40e1fa06364176fa502.png" alt="usuario" width="40px"></li>
@@ -22,9 +22,7 @@
 
     </ul>
    
-    <div class="seccion-busqueda">
-        <input *ngIf="searchActive" type="text" class="barra-busqueda">
-       </div>
+    
 </div>
 
 

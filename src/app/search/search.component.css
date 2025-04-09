@@ -7,4 +7,7 @@ input{
     border-radius: 5%;
     width: 700px;
     height: 100px;
+    font-size: 25pt;
+    font-family: "Roboto";
+    text-align: center;
 }
