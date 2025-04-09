@@ -1,11 +1,12 @@
 <div *ngIf="movies.length > 0; else noResults">
-    <div *ngFor="let movie of movies" class="movie-card">
+    <mat-grid-list cols="4" rowHeight="500px">
+    <mat-grid-tile *ngFor="let movie of movies" class="movie-card">
         <a [href]="movie.link">
-        <img [src]="movie.img" [alt]="movie.title"/>
-        <h3>{{movie.title}}</h3>
+        <img [src]="movie.img" [alt]="movie.title" width="300px" height="400px">
+        <p>{{movie.title}}</p>
     </a>
-    </div>
-   
+    </mat-grid-tile>
+    </mat-grid-list>
 </div>
 
 <ng-template #noResults>

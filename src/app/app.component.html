@@ -1,7 +1,9 @@
-<app-header></app-header>
+<app-header>
+    <app-search (search)="onSearch($event)"></app-search>
+</app-header>
 <app-carousel></app-carousel>
 
-<app-search (search)="onSearch($event)"></app-search>
+
 
 <div *ngIf="searchTerm">
     <h2>Resultados:</h2>

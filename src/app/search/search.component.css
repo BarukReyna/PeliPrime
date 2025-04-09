@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+input{
+    border-radius: 5%;
+    width: 700px;
+    height: 100px;
+}
